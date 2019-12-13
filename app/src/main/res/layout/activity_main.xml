@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/version_number"
+            android:padding="16dp"/>
+
+
+        <EditText
+            android:id="@+id/main_text_versionnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/code_name"
+            android:padding="16dp"/>
+
+
+        <EditText
+            android:id="@+id/main_text_codename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/release_date"
+            android:padding="16dp"/>
+
+
+        <EditText
+            android:id="@+id/main_text_releasedate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/api_level"
+            android:padding="16dp"/>
+
+
+        <EditText
+            android:id="@+id/main_text_apilvl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/main_btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:onClick="add"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/main_btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:onClick="update"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/main_btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:onClick="delete"
+            android:layout_margin="4dp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/main_btn_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="moveFirst"
+            android:text="@string/first" />
+
+        <Button
+            android:id="@+id/main_btn_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="movePrev"
+            android:text="@string/previous" />
+
+        <Button
+            android:id="@+id/main_btn_next"
+            android:layout_width="wrap_content"
+            android:onClick="moveNext"
+            android:layout_height="wrap_content"
+            android:text="@string/next" />
+
+        <Button
+            android:id="@+id/main_btn_last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="moveLast"
+            android:text="@string/last" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/main_btn_clear"
+            android:layout_width="wrap_content"
+            android:onClick="clear"
+            android:layout_height="wrap_content"
+            android:text="@string/clear" />
+
+        <Button
+            android:id="@+id/main_btn_viewall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="viewAll"
+            android:text="@string/viewall" />
+
+    </LinearLayout>
+
+</LinearLayout>

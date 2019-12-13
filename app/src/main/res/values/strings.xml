@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PE3FalcesoEmmanuelJohn</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="first">first</string>
+    <string name="last">last</string>
+    <string name="add">Add</string>
+    <string name="api_level">API Level</string>
+    <string name="code_name">Code Name</string>
+    <string name="version_number">Version Number</string>
+    <string name="release_date">Release Date</string>
+    <string name="next">next</string>
+    <string name="previous">previous</string>
+    <string name="clear">clear</string>
+    <string name="viewall">view all</string>
+</resources>

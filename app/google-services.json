@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "472028013954",
+    "firebase_url": "https://fir-tutorial-f316e.firebaseio.com",
+    "project_id": "fir-tutorial-f316e",
+    "storage_bucket": "fir-tutorial-f316e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472028013954:android:c6e1ec4ab1dd72b5c05b9b",
+        "android_client_info": {
+          "package_name": "com.falceso.falcesoemmanuelpracticalexam4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472028013954-h99mdepv1o3liql6lhe9bcjtgr7k8ajg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.falceso.falcesoemmanuelpracticalexam4",
+            "certificate_hash": "f236f468a8827b5a80cb2a350b05f3bef279d839"
+          }
+        },
+        {
+          "client_id": "472028013954-r78oo5q2v43n29094636s0h86iu0gu53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDksFnm2Vnjrf8LEYPbmUu8zBzbH4a5S4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472028013954-r78oo5q2v43n29094636s0h86iu0gu53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
